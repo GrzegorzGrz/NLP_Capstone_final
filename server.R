@@ -86,25 +86,7 @@ if (length(input_freq) < 1){
   })
   
   
-  
-  output$Intro <- renderText("Motor Trend Car Road Tests
-The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models).
 
-Keywords
-datasets
-Usage
-mtcars
-Note
-Henderson and Velleman (1981) comment in a footnote to Table 1: 'Hocking [original transcriber]'s noncrucial coding of the Mazda's rotary engine as a straight six-cylinder engine and the Porsche's flat engine as a V engine, as well as the inclusion of the diesel Mercedes 240D, have been retained to enable direct comparisons to be made with previous analyses.'")
-  
-  output$Manual <- renderText("Here we have Shiny app which helps to explore mtcars data set. You can choose which data to plot on X and Y axis and select factor for colouring data. Linear regresion line also will be calculated so you can imediatly spot correlations. Have Fun!")
-  
-  
-  
-  
-  
-  
-  
   
 })
   
